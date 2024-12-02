@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastro de dono | by Roger</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <a href="../../index.html">Voltar</a>
+    <h1>Cadastro de dono</h1>
+
+    <input id="input_name" type="text" placeholder="Nome do dono" />
+    <input id="input_phone" type="number" placeholder="Telefone" />
+
+    <input id="button_register_owner" type="button" value="Cadastrar" />
+    <input id="button_list_owner" type="button" value="Listar" />
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Telefone</th>
+        </tr>
+      </thead>
+      <tbody id="table_body"></tbody>
+    </table>
+
+    <script type="module" src="../views/ownerView.ts"></script>
+  </body>
+</html>

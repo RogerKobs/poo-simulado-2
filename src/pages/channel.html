@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastro de canal | by Roger</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <a href="../../index.html">Voltar</a>
+    <h1>Cadastro de canal</h1>
+
+    <input id="input_name" type="text" placeholder="Nome do canal" />
+
+    <input id="button_register_channel" type="button" value="Cadastrar" />
+    <input id="button_list_channel" type="button" value="Listar" />
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+        </tr>
+      </thead>
+      <tbody id="table_body"></tbody>
+    </table>
+
+    <script type="module" src="../views/channelView.ts"></script>
+  </body>
+</html>
